@@ -1,4 +1,4 @@
-/****** General ***********/
+/*********************** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -8,7 +8,7 @@
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
-
+/*      --- fa-solid Donne la couleure bleue aux icones font awesome */
 .fa-solid {
     color: var(--main-color);
 }
@@ -54,6 +54,7 @@ a {
     font-weight: 700;
 }
 
+/* ----      Remplace le bleu par défaut des icones par le gris pour les étoiles */
 .neutral-star {
     color: var(--main-bg-color)
 }
@@ -71,12 +72,12 @@ a {
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+/**** Hebergements ****/
 .hebergements {
     width: 65%;
 }
 
-/****** Populaires ***********/
+/*** Populaires ***/
 .populaires {
     width: 32%;
 }
