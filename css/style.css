@@ -60,7 +60,7 @@ a {
     color: var(--main-bg-color)
 }
 
-/*********** Menu du header ***********/
+/**************** Menu du header ****************/
 
 .menu-header {
     box-sizing: border-box;
@@ -74,6 +74,8 @@ a {
     height: 50px;
 }
 
+/**Logo à gauche **/ 
+
 .logo-menu-principal {
     display: flex;
     align-items: end;
@@ -83,6 +85,8 @@ a {
     display: block;
     width: 70px;
 }
+
+/** Menu principal, vers pages secondaides **/
 
 .liste-menu-principal {
     display: flex;
@@ -94,6 +98,12 @@ a {
 }
 
 .item-menu-principal {
+    border-top: 2px solid transparent;
     display: inline-flex;
     padding-top: 20px;
+}
+
+.item-menu-principal:hover {
+    border-top-color: var(--main-color);
+    color: var(--main-color);
 }
