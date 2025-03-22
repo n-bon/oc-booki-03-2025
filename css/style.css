@@ -1,6 +1,7 @@
 /*********************** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
 }
 
 :root {
@@ -57,4 +58,42 @@ a {
 /* ----      Remplace le bleu par défaut des icones par le gris pour les étoiles */
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+/*********** Menu du header ***********/
+
+.menu-header {
+    box-sizing: border-box;
+}
+
+.nav-menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.logo-menu-principal {
+    display: flex;
+    align-items: end;
+}
+
+.logo-menu-principal img {
+    display: block;
+    width: 70px;
+}
+
+.liste-menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 70px;
+    margin: 0;
+}
+
+.item-menu-principal {
+    display: inline-flex;
+    padding: 20px 0px;
 }
