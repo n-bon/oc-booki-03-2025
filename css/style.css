@@ -60,9 +60,13 @@ h1 {
     font-weight: 700;
 }
 
-/* ----      Remplace le bleu par défaut des icones par le gris pour les étoiles */
+/* ----      Remplacent les couleurs par défaut des icones */
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+.black-icon {
+    color: black ;
 }
 
 /**************** Menu du header ****************/
@@ -114,6 +118,15 @@ h1 {
     color: var(--main-color);
 }
 
+/**************** Bannière ****************/
+
+.banniere {
+    margin-top: 30px ;
+}
+
+.formulaire-banniere {
+    margin-top: 30px;
+}
 
 /****************** Small devices (phones, less than 768px) *******************/
 @media (max-width: 767.98px) {
