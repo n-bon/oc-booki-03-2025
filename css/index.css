@@ -57,6 +57,9 @@
     box-sizing: border-box;
 }
 
+.hebergements-cards .card-title {
+    margin-bottom: 10px;
+}
 .hebergements-cards .card-rating {
     margin-top: 5px;
 }
