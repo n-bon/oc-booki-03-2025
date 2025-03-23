@@ -76,6 +76,7 @@ h1 {
 }
 
 .nav-menu-container {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -122,11 +123,12 @@ h1 {
 
 .banniere {
     margin-top: 30px ;
+    padding-bottom: 20px;
 }
 /* Formulaire */
 
 .formulaire-banniere {
-    margin: 30px 0px 30px 0px;
+    margin: 30px 0px 15px 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -172,22 +174,105 @@ h1 {
     display: none;
 }
 
+/* Filtres */
 
+.filtres {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    gap: 15px;
+    align-items: center;
+}
+
+.titre-filtres {
+    font-size: 1.1em;
+}
+
+.container-boutons-filtres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.bouton-filtre {
+    padding: 15px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 30px;
+    font-size: 1em;
+    background-color: transparent;
+}
+
+.bouton-filtre:hover {
+    background-color: var(--filter-bg-color);
+}
+.icone-filtre {
+    font-size: 1.1em;
+}
+
+.texte-filtre {
+    margin: 0px 5px;
+    font-weight: 600;
+}
+
+/* Infos sur les résultats */
+
+.infos-resultats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+}
+.info {
+    padding: 6px 12px;
+    border: 1px solid var(--main-bg-color);
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.icone-info {
+    font-size: 0.8em;
+}
+
+.texte-info {
+    font-size: 0.9em;
+}
+
+
+/********************* Media queries ************************/
+/********* Medium devices (tablets, less/equal than 1024px)******** */
+@media (max-width: 1024px) {
+    .filtres {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 /****************** Small devices (phones, less than 768px) *******************/
 @media (max-width: 767.98px) {
 
     /*** Adaptations générales ***/
 
     .main-container {
-        padding: 20px;
+        padding: 0px;
+    }
+
+    .corps {
+        padding: 0px 20px;
     }
 
     /** Adaptation du menu principal**/
+
     .nav-menu-container {
         flex-direction: column;
         justify-items: center;
         height: 115px;
     }
+
 
     /* Logo*/
 
@@ -213,8 +298,8 @@ h1 {
     
     .item-menu-principal {
         border-top: none;
-        border-bottom: 2px solid transparent;
-        padding-bottom: 20px ;
+        border-bottom: 2px solid var(--main-bg-color);
+        padding-bottom: 20px;
         box-sizing: border-box;
         width: 50%;
         justify-content: center;
@@ -225,6 +310,10 @@ h1 {
     }
 
     /********* Adaptation de la bannière ***********/
+
+    .banniere {
+        margin-top: 10px;
+    }
     /** Formulaire de recherche  **/
 
     .champ-ville {
