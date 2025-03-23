@@ -34,13 +34,12 @@
 }
 
 .hebergements-cards a {
-    max-width: 30%;
+    width: 30%;
 }
 
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
  }
 
 .hebergements-cards img {
@@ -53,8 +52,6 @@
     padding: 7px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
 }
 
 .hebergements-cards .card-title {
@@ -155,6 +152,15 @@
     .hebergements {
         border-radius: 0px;
         background-color: transparent;
+        padding: 20px;
+    }
+
+    .hebergements-cards {
+        flex-direction: column;
+    }
+
+    .hebergements-cards a {
+        width: 100%;
     }
 
     .populaires {
