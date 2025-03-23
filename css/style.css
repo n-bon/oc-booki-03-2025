@@ -31,6 +31,11 @@ a {
     text-decoration: none;
 }
 
+h1 { 
+    padding: 15px 0px ;
+    font-weight: 600;
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -55,9 +60,13 @@ a {
     font-weight: 700;
 }
 
-/* ----      Remplace le bleu par défaut des icones par le gris pour les étoiles */
+/* ----      Remplacent les couleurs par défaut des icones */
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+.black-icon {
+    color: black ;
 }
 
 /**************** Menu du header ****************/
@@ -109,6 +118,60 @@ a {
     color: var(--main-color);
 }
 
+/**************** Bannière ****************/
+
+.banniere {
+    margin-top: 30px ;
+}
+/* Formulaire */
+
+.formulaire-banniere {
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-top: 2px solid var(--main-bg-color);
+    border-bottom: 2px solid var(--main-bg-color);
+    border-radius: 15px;
+    max-width: 380px;
+}
+
+.etiquette-ville {
+    background-color: var(--main-bg-color);
+    font-size: 1em;
+    padding: 15px 17px 15px 17px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 15px 0px 0px 15px;
+    margin: -2px 0px -2px -2px;
+}
+
+.champ-ville {
+    font-size: 1em;
+    font-weight: 600;
+    width: 100%;
+    border: none;
+    border-left: none;
+    border-right: none;
+    margin: -2px 0px -2px 0px;
+    padding: 15px 25px 15px 25px;
+    }
+
+.rechercher {
+    background-color: var(--main-color);
+    font-size: 1em;
+    color: white;
+    padding: 15px;
+    margin: -2px -2px -2px 0px;
+    border: 2px solid var(--main-color);
+    border-radius: 0px 15px 15px 0px;
+}
+
+.rechercher i {
+    color: white;
+    display: none;
+}
+
 
 /****************** Small devices (phones, less than 768px) *******************/
 @media (max-width: 767.98px) {
@@ -116,7 +179,7 @@ a {
     /*** Adaptations générales ***/
 
     .main-container {
-        padding: 0px;
+        padding: 20px;
     }
 
     /** Adaptation du menu principal**/
@@ -159,6 +222,24 @@ a {
     
     .item-menu-principal:hover {
         border-bottom-color: var(--main-color);
+    }
+
+    /********* Adaptation de la bannière ***********/
+    /** Formulaire de recherche  **/
+
+    .champ-ville {
+        padding-right: 5px;
+    }
+    .rechercher {
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .rechercher i {
+        display: inline;
+    }
+
+    .rechercher span {
+        display: none;
     }
 
 }
