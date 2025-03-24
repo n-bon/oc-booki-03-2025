@@ -183,6 +183,7 @@
     /*** Activites **/
     .activites {
         margin-top: 50px;
+        margin-bottom: 50px;
         padding: 20px;
     }
 
@@ -202,6 +203,7 @@
     }
 
     .hebergements {
+        margin-top: 15px;
         border-radius: 0px;
         background-color: transparent;
         padding: 20px;
@@ -217,6 +219,7 @@
 
     /* Populaires */
     .populaires {
+        margin-top: 20px;
         border-radius: 0px;
     }
 
