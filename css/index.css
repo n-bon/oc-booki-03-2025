@@ -195,6 +195,7 @@
 
     /** Hebergements et populaires **/
 
+    /* Hebergements */
     .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
@@ -213,8 +214,17 @@
         width: 100%;
     }
 
+    /* Populaires */
     .populaires {
         border-radius: 0px;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
     }
 
     /*** Activites **/
