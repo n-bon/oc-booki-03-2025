@@ -103,6 +103,16 @@
     margin-bottom: 5px;
 }
 
+/************************** Activités ********************************/
+
+.activites {
+    margin-top: 70px;
+    box-sizing: border-box;
+}
+
+.activites-cards {
+    display: flex;
+}
 
 
 
