@@ -103,6 +103,7 @@
 
 .activites {
     margin-top: 70px;
+    margin-bottom: 60px;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -180,6 +181,10 @@
     }
 
     /*** Activites **/
+    .activites {
+        padding: 20px;
+    }
+
     .activites-cartes img {
         height: 200px;
     }
@@ -213,9 +218,7 @@
     }
 
     /*** Activites **/
-    .activites {
-        padding: 20px;
-    }
+
     .activites-cartes {
         flex-direction: column;
         gap: 20px;

@@ -244,9 +244,32 @@ h1 {
     font-size: 0.9em;
 }
 
+/******************************* Pied de page ***************************************************/
 
+.conteneur-pied-page {
+    background-color: var(--main-bg-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.colonne-pied-page {
+    width: 33%;
+}
+.titre-pied-page {
+    margin-bottom: 20px;
+}
+.liste-liens-pied-page {
+    padding: 0px;
+    list-style: none;
+}
+
+.liste-liens-pied-page li {
+    margin-bottom: 20px;
+}
 /********************* Media queries ************************/
-/********* Medium devices (tablets, less/equal than 1024px)******** */
+/********* Appareils moyens (tablettess <= 1024px)******** */
 @media (max-width: 1024px) {
     .filtres {
         flex-direction: column;
@@ -327,6 +350,12 @@ h1 {
 
     .rechercher span {
         display: none;
+    }
+
+    /*********** Adaptation du pied-de-page ***********/
+    .conteneur-pied-page {
+        flex-direction: column;
+        gap: 40px;
     }
 
 }
