@@ -14,10 +14,6 @@
     box-sizing: border-box;
 }
 
-.hebergements-cards .card-title,
-.populaires-cards .card-title {
-    margin-bottom: 4px;
-}
 
 /**** Hebergements ****/
 .hebergements {
@@ -110,10 +106,26 @@
     box-sizing: border-box;
 }
 
-.activites-cards {
+.activites-cartes {
     display: flex;
 }
 
+.activites-cartes .card {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.activites-cartes img {
+    width: 100%;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 5px;
+}
+
+.activites-cartes .card-content {
+    padding: 20px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
