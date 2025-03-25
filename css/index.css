@@ -1,7 +1,7 @@
 /**********Classes spécifiques index *****************/
 
-/****** Hebergements And Populaires ***********/
-.hebergements-and-populaires {
+/****** Hebergements et Populaires ***********/
+.hebergements-et-populaires {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -20,7 +20,7 @@
     width: 65%;
 }
 
-.hebergements-cards {
+.cartes-hebergements {
     margin-bottom: 30px;
     display: flex;
     flex-direction: row;
@@ -28,32 +28,32 @@
     justify-content: space-between;
 }
 
-.hebergements-cards a {
+.cartes-hebergements a {
     width: 30%;
 }
 
-.hebergements-cards .card {
+.cartes-hebergements .carte {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
  }
 
-.hebergements-cards img {
+.cartes-hebergements img {
     width: 100%;
     height: 115px;
     border-radius: 20px 20px 0px 0px;
 }
 
-.hebergements-cards .card-content {
+.cartes-hebergements .contenu-carte {
     padding: 7px;
     display: flex;
     flex-direction: column;
 }
 
-.hebergements-cards .card-title {
+.cartes-hebergements .titre-carte {
     margin-bottom: 10px;
 }
-.hebergements-cards .card-rating {
+.cartes-hebergements .note-carte {
     margin-top: 5px;
 }
 /*** Populaires ***/
@@ -61,24 +61,24 @@
     width: 32%;
 }
 
-.populaires-title {
+.titre-populaires {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.populaires-cards .card {
+.cartes-populaires .carte {
     display: flex;
     margin-top: 33px;
 }
 
-.populaires-cards img {
+.cartes-populaires img {
     width: 33%;
     height: 136px;
     border-radius: 20px 0px 0px 20px;
 }
 
-.populaires-cards .card-content {
+.cartes-populaires .contenu-carte {
     width: 67%;
     padding-left: 15px;
     display: flex;
@@ -87,15 +87,15 @@
     box-sizing: border-box;
 }
 
-.populaires-cards .card-title {
+.cartes-populaires .titre-carte {
     margin-top: 10px;
 }
 
-.populaires-cards .card-subtitle {
+.cartes-populaires .sous-titre-carte {
     margin: 0;
 }
 
-.populaires-cards .card-rating {
+.cartes-populaires .note-carte {
     margin-bottom: 5px;
 }
 
@@ -121,7 +121,7 @@
     width: 23%;
 }
 
-.activites-cartes .card {
+.activites-cartes .carte {
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -137,19 +137,18 @@
     margin-bottom: 5px;
 }
 
-.activites-cartes .card-content {
+.activites-cartes .contenu-carte {
     padding: 20px;
 }
 
 
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
 /****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
+/* Appareils moyens (tablettes <= 1024px) */
+
 @media (max-width: 1024px) {
 
     /** Hebergements et populaires **/
-    .hebergements-and-populaires {
+    .hebergements-et-populaires {
         flex-direction: column;
     }
 
@@ -162,21 +161,21 @@
         margin-top: 50px;
     }
 
-    .populaires-cards {
+    .cartes-populaires {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .populaires-cards a {
+    .cartes-populaires a {
         width: 30%;
     }
 
-    .populaires-cards .card-title {
+    .cartes-populaires .titre-carte {
         font-size: 14px;
     }
 
-    .populaires-cards .card-subtitle {
+    .cartes-populaires .sous-titre-carte {
         font-size: 13px;
     }
 
@@ -192,13 +191,13 @@
     }
 }
 
-/* Small devices (phones, less than 768px) */
+/* Petits appareils (telephones < 768px) */
 @media (max-width: 767.98px) {
 
     /** Hebergements et populaires **/
 
     /* Hebergements */
-    .hebergements-and-populaires {
+    .hebergements-et-populaires {
         flex-direction: column-reverse;
     }
 
@@ -209,11 +208,11 @@
         padding: 20px;
     }
 
-    .hebergements-cards {
+    .cartes-hebergements {
         flex-direction: column;
     }
 
-    .hebergements-cards a {
+    .cartes-hebergements a {
         width: 100%;
     }
 
@@ -223,11 +222,11 @@
         border-radius: 0px;
     }
 
-    .populaires-cards {
+    .cartes-populaires {
         flex-direction: column;
     }
 
-    .populaires-cards a {
+    .cartes-populaires a {
         width: 100%;
     }
 
