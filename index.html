@@ -16,10 +16,10 @@
 </head>
 
 <body>
-    <div class="main-container">
-        <header class="menu-header">
+    <div class="conteneur-principal">
+        <header class="menu-entete">
             <nav>
-                <div class="nav-menu-container">
+                <div class="conteneur-menu-principal">
                     <div class="logo-menu-principal">
                         <img src="./images/logo/Booki.png" alt="Logo de Booki, plateforme de réservation d'hébergements et d'activités" title="Réservez vos hébergements et vos activités avec Booki">
                     </div>
@@ -38,7 +38,7 @@
             <section class="banniere">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre-ville ou en pleine nature</p>
-                <form action="" method="get" class="formulaire-banniere">
+                <form action="#" method="get" class="formulaire-banniere">
                     <label for="ville" class="etiquette-ville">
                         <i class="fa-solid fa-location-dot black-icon"></i>
                     </label>
@@ -50,7 +50,7 @@
                 </form>
                 <div class="filtres">
                     <h2 class="titre-filtres">Filtres</h2>
-                    <div class="container-boutons-filtres">
+                    <div class="conteneur-boutons-filtres">
                         <button class="bouton-filtre">
                             <i class="fa-solid fa-money-bill-wave icone-filtre"></i>
                             <span class="texte-filtre">Économique</span>
@@ -74,20 +74,19 @@
                     <span class="texte-info">Plus de 500 logements sont disponibles dans cette ville</span>
                 </div>
             </section>
-            <div class="hebergements-and-populaires">
-                <!--Vérifier la direction du flex pour qu'elle corresponde à la maquette-->
+            <div class="hebergements-et-populaires">
                 <section class="hebergements">
-                    <h2 class="section-title">Hébergements à Marseille</h2>
-                    <div class="hebergements-cards">
+                    <h2 class="titre-section">Hébergements à Marseille</h2>
+                    <div class="cartes-hebergements">
                         <a href="#" title="Réserver un séjour à l'Hôtel du Port">
-                            <article class="card">
+                            <article class="carte">
                                 <img src="./images/hebergements/fred-kleber.jpg" alt="Chambrée de l'Hôtel du Port à Marseille"> 
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Hôtel du port</h3>
-                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                <div class="contenu-carte">
+                                    <div class="texte-carte">
+                                        <h3 class="titre-carte">Hôtel du port</h3>
+                                        <p class="sous-titre-carte">Nuit à partir de 52<span class="euro">€</span></p>
                                     </div>
-                                    <div class="card-rating">
+                                    <div class="note-carte">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -99,14 +98,14 @@
                             </article>
                         </a>
                         <a href="#" title="Réserver un séjour à l'Hôtel chez Amina">
-                            <article class="card">
+                            <article class="carte">
                                 <img src="./images/hebergements/febrian-zakaria.jpg" alt="Chambrée de l'Hôtel du Port à Marseille"> 
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Hôtel Chez Amina</h3>
-                                        <p class="card-subtitle">Nuit à partir de 96<span class="euro">€</span></p>
+                                <div class="contenu-carte">
+                                    <div class="texte-carte">
+                                        <h3 class="titre-carte">Hôtel Chez Amina</h3>
+                                        <p class="sous-titre-carte">Nuit à partir de 96<span class="euro">€</span></p>
                                     </div>
-                                    <div class="card-rating">
+                                    <div class="note-carte">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -118,14 +117,14 @@
                             </article>
                         </a>
                         <a href="#" title="Réserver un séjour à l'Hôtel Les mouettes">
-                            <article class="card">
+                            <article class="carte">
                                 <img src="./images/hebergements/reisetopia.jpg" alt="Chambrée de l'Hôtel du Port à Marseille"> 
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Hôtel Les mouettes</h3>
-                                        <p class="card-subtitle">Nuit à partir de 76<span class="euro">€</span></p>
+                                <div class="contenu-carte">
+                                    <div class="texte-carte">
+                                        <h3 class="titre-carte">Hôtel Les mouettes</h3>
+                                        <p class="sous-titre-carte">Nuit à partir de 76<span class="euro">€</span></p>
                                     </div>
-                                    <div class="card-rating">
+                                    <div class="note-carte">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -137,14 +136,14 @@
                             </article>
                         </a>
                         <a href="#" title="Réserver un séjour à l'Hôtel de la mer">
-                            <article class="card">
+                            <article class="carte">
                                 <img src="./images/hebergements/annie-spratt.jpg" alt="Chambrée de l'Hôtel du Port à Marseille"> 
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Hôtel de la mer</h3>
-                                        <p class="card-subtitle">Nuit à partir de 46<span class="euro">€</span></p>
+                                <div class="contenu-carte">
+                                    <div class="texte-carte">
+                                        <h3 class="titre-carte">Hôtel de la mer</h3>
+                                        <p class="sous-titre-carte">Nuit à partir de 46<span class="euro">€</span></p>
                                     </div>
-                                    <div class="card-rating">
+                                    <div class="note-carte">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -156,14 +155,14 @@
                             </article>
                         </a>
                         <a href="#" title="Réserver un séjour à l'Auberge La Canebière">
-                            <article class="card">
+                            <article class="carte">
                                 <img src="./images/hebergements/marcus-loke.jpg" alt="Chambrée de l'Hôtel du Port à Marseille"> 
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Auberge La Canebière</h3>
-                                        <p class="card-subtitle">Nuit à partir de 25<span class="euro">€</span></p>
+                                <div class="contenu-carte">
+                                    <div class="texte-carte">
+                                        <h3 class="titre-carte">Auberge La Canebière</h3>
+                                        <p class="sous-titre-carte">Nuit à partir de 25<span class="euro">€</span></p>
                                     </div>
-                                    <div class="card-rating">
+                                    <div class="note-carte">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -175,14 +174,14 @@
                             </article>
                         </a>
                         <a href="#" title="Réserver un séjour à l'Auberge Le Panier">
-                            <article class="card">
+                            <article class="carte">
                                 <img src="./images/hebergements/nicate-lee.jpg" alt="Chambrée de l'Hôtel du Port à Marseille"> 
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Auberge Le Panier</h3>
-                                        <p class="card-subtitle">Nuit à partir de 23<span class="euro">€</span></p>
+                                <div class="contenu-carte">
+                                    <div class="texte-carte">
+                                        <h3 class="titre-carte">Auberge Le Panier</h3>
+                                        <p class="sous-titre-carte">Nuit à partir de 23<span class="euro">€</span></p>
                                     </div>
-                                    <div class="card-rating">
+                                    <div class="note-carte">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -197,20 +196,20 @@
                     <h3><a href="#" title="Voir plus d'hébergements à Marseille">Afficher plus</a></h3>
                 </section>
                 <section class="populaires">
-                    <div class="populaires-title">
-                        <h2 class="section-title">Les plus populaires</h2>
+                    <div class="titre-populaires">
+                        <h2 class="titre-section">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
-                    <div class="populaires-cards">
+                    <div class="cartes-populaires">
                         <a href="#">
-                            <article class="card">
+                            <article class="carte">
                                 <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Hôtel Le soleil du matin</h3>
-                                        <p class="card-subtitle">Nuit à partir de 128<span class="euro">€</span></p>
+                                <div class="contenu-carte">
+                                    <div class="texte-carte">
+                                        <h3 class="titre-carte">Hôtel Le soleil du matin</h3>
+                                        <p class="sous-titre-carte">Nuit à partir de 128<span class="euro">€</span></p>
                                     </div>
-                                    <div class="card-rating">
+                                    <div class="note-carte">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -222,14 +221,14 @@
                             </article>
                         </a>
                         <a href="#">
-                            <article class="card">
+                            <article class="carte">
                                 <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Chambres d’hôtes Au cœur de l’eau</h3>
-                                        <p class="card-subtitle">Nuit à partir de 71<span class="euro">€</span></p>
+                                <div class="contenu-carte">
+                                    <div class="texte-carte">
+                                        <h3 class="titre-carte">Chambres d’hôtes Au cœur de l’eau</h3>
+                                        <p class="sous-titre-carte">Nuit à partir de 71<span class="euro">€</span></p>
                                     </div>
-                                    <div class="card-rating">
+                                    <div class="note-carte">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -241,14 +240,14 @@
                             </article>
                         </a>
                         <a href="#">
-                            <article class="card">
+                            <article class="carte">
                                 <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                                <div class="card-content">
-                                    <div class="card-txt">
-                                        <h3 class="card-title">Hôtel Bleu et Blanc</h3>
-                                        <p class="card-subtitle">Nuit à partir de 68<span class="euro">€</span></p>
+                                <div class="contenu-carte">
+                                    <div class="texte-carte">
+                                        <h3 class="titre-carte">Hôtel Bleu et Blanc</h3>
+                                        <p class="sous-titre-carte">Nuit à partir de 68<span class="euro">€</span></p>
                                     </div>
-                                    <div class="card-rating">
+                                    <div class="note-carte">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -260,41 +259,40 @@
                             </article>
                         </a>
                     </div>
-
+                </section>
             </div>
-            </section>
             <section class="activites">
-                <h2 class="section-title">Activités à Marseille</h2>
+                <h2 class="titre-section">Activités à Marseille</h2>
                 <div class="activites-cartes">
                     <a href="#" title="Réserver une activité au Vieux-Port à Marseille">
-                        <article class="card">
+                        <article class="carte">
                             <img src="./images/activites/reno-laithienne.jpg" alt="Vue du Vieux-Port de Marseille">
-                            <div class="card-content">
-                                <h3 class="card-title">Vieux-Port</h3>
+                            <div class="contenu-carte">
+                                <h3 class="titre-carte">Vieux-Port</h3>
                             </div>
                         </article>
                     </a>
                     <a href="#" title="Réserver une activité au Fort de Pomègues à Marseille">
-                        <article class="card">
+                        <article class="carte">
                             <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues à Marseille">
-                            <div class="card-content">
-                                <h3 class="card-title">Fort de Pomègues</h3>
+                            <div class="contenu-carte">
+                                <h3 class="titre-carte">Fort de Pomègues</h3>
                             </div>
                         </article>
                     </a>
                     <a href="#" title="Réserver une activité au Parc national des Calanques à Marseille">
-                        <article class="card">
+                        <article class="carte">
                             <img src="./images/activites/kilyan-sockalingum.jpg" alt="Paysage du Parc national des Calanques">
-                            <div class="card-content">
-                                <h3 class="card-title">Parc national des Calanques</h3>
+                            <div class="contenu-carte">
+                                <h3 class="titre-carte">Parc national des Calanques</h3>
                             </div>
                         </article>
                     </a>
                     <a href="#" title="Réserver une activité à Notre-Dame-de-la-Garde à Marseille">
-                        <article class="card">
+                        <article class="carte">
                             <img src="./images/activites/florian-wehde.jpg" alt="Quartier de Notre-Dame-de-la-Garde à Marseille">
-                            <div class="card-content">
-                                <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                            <div class="contenu-carte">
+                                <h3 class="titre-carte">Notre-Dame-de-la-Garde</h3>
                             </div>
                         </article>
                     </a>
