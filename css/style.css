@@ -35,7 +35,7 @@ h1 {
 
 .titre-section {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.3em;
 }
 
 .carte {
@@ -50,7 +50,7 @@ h1 {
 }
 
 .titre-carte {
-    font-size: 16px;
+    font-size: 1em;
     margin-bottom: 4px;
 }
 

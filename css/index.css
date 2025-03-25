@@ -172,11 +172,11 @@
     }
 
     .cartes-populaires .titre-carte {
-        font-size: 14px;
+        font-size: 0.9em;
     }
 
     .cartes-populaires .sous-titre-carte {
-        font-size: 13px;
+        font-size: 0.8em;
     }
 
     /*** Activites **/
